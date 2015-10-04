@@ -48,13 +48,13 @@ var TradiIdRequested int
 
 // Error Handling
 if os.Args == nil || len(os.Args) < 3 {
-    fmt.Println("Please enter valid command line arguments e.g. buy GOOG:50%,YHOO:50% 1000")
+    fmt.Println("Please enter valid command line arguments e.g. Buy GOOG:50%,YHOO:50% 1000")
     return
   }
 
 if os.Args == nil || len(os.Args) < 4 {
    if os.Args[1] == "buy" {
-     fmt.Println("Please enter valid command line arguments e.g. buy GOOG:50%,YHOO:50% 1000")
+     fmt.Println("Please enter valid command line arguments e.g. Buy GOOG:50%,YHOO:50% 1000")
      return
    }
 }
